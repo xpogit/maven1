@@ -8,13 +8,8 @@ import org.slf4j.LoggerFactory;
 
 public class yoyo {
 
-    Logger log = LoggerFactory.getLogger(yoyo.class);
+    public static void main(String[] args) {
 
-    @Test
-    public void test() {
-
-        String s = "Print Marat";
-        log.info(s);
-
+        System.out.println("MY FIRST --------> MAVEN PUSH");
     }
 }
